@@ -1,4 +1,12 @@
-# Tagesschau Archive Article Dataset
+
+<!-- Add title image -->
+
+# [![Tagesschau Favicon](https://www.tagesschau.de/favicon.ico)](https://www.tagesschau.de/)  Tagesschau Archive Article Dataset
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg?style=flat)](https://www.python.org/downloads/release/python-360/)
+[![HuggingFace Datasets](https://img.shields.io/badge/huggingface-datasets-orange.svg?style=flat)](https://huggingface.co/datasets/bjoernp/tagesschau-2018-2023)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 This repository contains the code for scraping every article
 from the Tagesschau.de archive. Find a deduplicated version of the dataset
@@ -29,6 +37,7 @@ Cleaning:
 - Articles with empty short_texts are removed
 - Articles, headlines and short_headlines are stripped of leading and trailing whitespace
 
+More details in [`clean.py`](./clean.py).
 
 ## Usage
 
